@@ -1,0 +1,217 @@
+body{
+	font-family: "Roboto",sans-serif;
+}
+a {text-decoration: none; color:#fff;}
+.header{
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.top_header{
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 6px;
+	color: white;
+	background-color: black;
+}
+.top_header span{padding:0 7px 0 0; }
+.hed_seprat {border-right: 1px solid #fff; margin-right:6px;}
+.main_header{float: left;width: 100%;margin: 0;padding: 0;color: black; }
+.main_header .navbar-logo {float: left;margin-top: 5px;}
+.main_heeadr .menu {float: right;}
+.main_header .navbar{background-color: white;border:none;margin-bottom: 0px;  }
+.main_header .navbar-inverse .navbar-nav li a {color: black;font-size: 12px;padding: 14px 10px;}
+
+.content
+{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+.banner
+{
+	background: url(../images/single-banner.jpg) no-repeat;
+	width: 100%;
+	height: 400px;
+	float: left;
+	position: relative;
+}
+.banner:before
+{
+	background: rgba(0,0,0,0.8);
+	height: 100%;
+	width: 100%;
+	display: block;
+	content: '';
+	position:absolute;	
+}
+.contact
+{
+	color: white;
+	font-weight: bold;
+	font-size: 35px;
+	margin: 0px;
+	width: 100%;
+	float: left;
+	padding-top: 15%;
+}
+.contact_para
+{
+	color:white;
+}
+.contact_information
+{
+	float: left;
+	margin: 80px 0 0 0;
+	padding: 0px;
+	width: 100%;
+}
+.contact_form h1
+{
+	font-weight: bold;
+}
+.details
+{
+	height: 30px;
+	width: 100%;
+	padding:15px;
+	margin-bottom:20px; 
+}
+.c_details
+{
+	width: 100%;
+	height: 150px;
+	margin-bottom: 15px; 
+	padding:0 15px 110px 15px;
+}
+.contact_button
+{
+	height: 35px;
+	width: 135px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	background: #FFB606;
+}
+.contact_info
+{
+	float: left;
+	margin: 35px 0 0 0;
+	padding: 50px 0 35px 20px;
+	width: 100%;
+	line-height: 23px;
+	box-shadow: 0 0 5px;
+}
+.glyphicon1
+{
+	color: #FFB606;
+	font-size: 25px;
+	display: inline;
+	margin: 0px;
+	padding:0px;
+	float: left;
+}
+.office_title
+{
+	font-size: 25px;
+	font-weight: bold;
+}
+.office_para
+{
+	font-size: 18px;
+}
+.title
+{
+	font-size: 20px;
+	font-weight: bold;
+	display: inline;
+	padding-left: 20px;
+}
+.office_p
+{
+	margin: 0px;
+	padding-left: 45px; 
+}
+.maps
+{
+	padding:0px;
+	margin:0px;
+
+}
+.footer
+{
+	padding: 0;
+	width: 100%;
+	float: left;
+	background-color: #233243;
+	color:white;
+}
+.footer_menu
+{
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+.footer_menu img
+{
+	padding-top: 20px;
+}
+.footer_para
+{
+	line-height: 20px;
+	padding-top: 20px;
+}
+.footer_menu ul
+{
+	padding-top: 10px;
+}
+.footer_menu .footer_news
+{
+	padding-top: 10px;
+	color: #F19D2F;
+}
+.footer_menu .newsletter
+{
+	padding-bottom: 8px;
+}
+.footer_menu .footer_button
+{
+	margin-top: 10px;
+	height: 35px;
+	width: 80px;
+	background: #FFB606;
+}
+.footer_input
+{
+	width: 250px;
+	height: 45px;
+	border-radius: 5px;
+	border:none;
+	padding: 20px;
+}
+.footer_line
+{
+	float: left;
+	margin-bottom: 10px;
+	padding: 0px;
+	width: 100%;
+	background-color: #44515F;
+}
+.bottom_footer
+{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	width: 100%;
+	cursor: pointer;
+}
+.terms_para
+{
+	float: right;
+	margin: -30px;
+	padding-right: 55px; 
+	font-weight: bold; 
+}
